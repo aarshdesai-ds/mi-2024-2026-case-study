@@ -135,10 +135,6 @@ mi-2024-2026-case-study/
 │   ├── [ball-by-ball CSV]          # Not included — see Data Source below
 │   └── [match metadata CSV]        # Not included — see Data Source below
 │
-├── docs/
-│   ├── research_plan.md            # Original deliverables-and-hypotheses plan
-│   └── build_roadmap.md            # 7-phase build roadmap (data loading → dashboarding)
-│
 └── presentation/
     └── MI_Stakeholder_Presentation.pptx   # 12-slide summary deck
 ```
