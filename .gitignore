@@ -1,0 +1,5 @@
+﻿data/*.csv
+data/*.json
+.ipynb_checkpoints/
+dashboard_data/*.png
+dashboard_data/*.csv
