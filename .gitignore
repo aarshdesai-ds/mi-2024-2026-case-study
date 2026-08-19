@@ -15,6 +15,7 @@ Thumbs.db
 # Dashboard exports — regenerable from the notebooks, not source data
 dashboard_data/*.csv
 dashboard_data/*.png
+docs/*.md
 
 # NOTE: data/ is intentionally tracked. Ball-by-ball and match-metadata CSVs
 # (github.com/ritesh-ojha/IPL-DATASET, derived from Cricsheet, ODbL license)
