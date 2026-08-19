@@ -1,5 +1,22 @@
-﻿data/*.csv
-data/*.json
+# Jupyter
 .ipynb_checkpoints/
-dashboard_data/*.png
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dashboard exports — regenerable from the notebooks, not source data
 dashboard_data/*.csv
+dashboard_data/*.png
+
+# NOTE: data/ is intentionally tracked. Ball-by-ball and match-metadata CSVs
+# (github.com/ritesh-ojha/IPL-DATASET, derived from Cricsheet, ODbL license)
+# and the player-details CSV are committed directly — see README.md
+# "Dataset Description" and the closing data-source citation.

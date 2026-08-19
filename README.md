@@ -43,7 +43,7 @@ The project moves through three stages: descriptive phase-split analysis (bowlin
 
 ### Ball-by-Ball Delivery Data
 
-One row per legal or illegal delivery, across all matches in scope.
+Source: [ritesh-ojha/IPL-DATASET](https://github.com/ritesh-ojha/IPL-DATASET) (GitHub), derived from Cricsheet. One row per legal or illegal delivery, across all matches in scope.
 
 | Column | Description |
 |---|---|
@@ -178,7 +178,7 @@ pip install pandas numpy scipy matplotlib seaborn jupyter
    pip install pandas numpy scipy matplotlib seaborn jupyter
    ```
 
-3. Add the ball-by-ball and match-metadata CSVs to `data/` (see [Data Source](#data-source) below — `2024_players_details.csv` is already included).
+3. Add the ball-by-ball and match-metadata CSVs to `data/` from [ritesh-ojha/IPL-DATASET](https://github.com/ritesh-ojha/IPL-DATASET) (see [Data Source](#data-source) below — `2024_players_details.csv` is already included).
 
 4. Launch Jupyter and run the notebooks in order:
    ```bash
@@ -236,4 +236,4 @@ The LHB/RHB matchup analysis currently covers Will Jacks only. Extending it to e
 
 ## Data Source
 
-Ball-by-ball and match metadata: [Cricsheet](https://cricsheet.org) (Open Database License — free for any use, including commercial, with attribution). Player batting/bowling style reference: compiled from [ESPNcricinfo](https://www.espncricinfo.com) player profiles. Analysis covers Mumbai Indians' IPL seasons 2024–2026.
+Ball-by-ball and match metadata: [ritesh-ojha/IPL-DATASET](https://github.com/ritesh-ojha/IPL-DATASET) on GitHub — pre-flattened CSVs derived from [Cricsheet](https://cricsheet.org) (Open Database License — free for any use, including commercial, with attribution), updated daily. Player batting/bowling style reference: compiled from [ESPNcricinfo](https://www.espncricinfo.com) player profiles. Analysis covers Mumbai Indians' IPL seasons 2024–2026.
