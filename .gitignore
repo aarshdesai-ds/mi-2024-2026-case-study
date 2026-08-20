@@ -15,7 +15,6 @@ Thumbs.db
 # Dashboard exports — regenerable from the notebooks, not source data
 dashboard_data/*.csv
 dashboard_data/*.png
-docs/*.md
 data/*/*.json
 
 # NOTE: data/ is intentionally tracked. Ball-by-ball and match-metadata CSVs
