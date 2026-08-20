@@ -16,6 +16,7 @@ Thumbs.db
 dashboard_data/*.csv
 dashboard_data/*.png
 docs/*.md
+data/*/*.json
 
 # NOTE: data/ is intentionally tracked. Ball-by-ball and match-metadata CSVs
 # (github.com/ritesh-ojha/IPL-DATASET, derived from Cricsheet, ODbL license)
